@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title%}Create Account Page{% endblock%}
+{% block content%}
+    
+    <br/>
+    <br/>
+    <form action="#" method="post">
+      <h3 align="center">Sign Up</h3>
+     <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" name="username" class="form-control" placeholder="Enter UserName"/>
+      <label for="password">Password:</label>
+      <input type="password" name="password" class="form-control" placeholder="Enter PassWord"/>
+      
+          </div>
+          <br/>
+          <div align="center">
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+          </div>
+    </form>
+    <br/>
+    <hr/>
+    <br/>
+    <p>Have an account?Login  <a href="/login">here</a></p>
+{% endblock%}
